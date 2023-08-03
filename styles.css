@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    background-color: aqua;
+    border-color: red;
+    border-style: solid;
+}
+
+#image-container {
+    flex-grow: 1;
+    background-color: blue;
+}
+
+#form-container {
+    flex-grow: 1;
+    padding: 16px;
+    background-color: yellow;
+}
+
+.input-container {
+    display: flex;
+    gap: 32px;
+}
+
+.input-container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container-2 {
+    display: flex;
+    flex-direction: column;
+}
