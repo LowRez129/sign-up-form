@@ -3,17 +3,19 @@ body {
     margin: 0;
     height: 100vh;
     background-color: aqua;
-    border-color: red;
-    border-style: solid;
 }
 
 #image-container {
-    flex-grow: 1;
+    flex-grow: 5;
     background-color: blue;
 }
 
 #form-container {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
     padding: 16px;
     background-color: yellow;
 }
@@ -23,12 +25,18 @@ body {
     gap: 32px;
 }
 
-.input-container-1 {
+.input-container-1,
+.input-container-2 {
     display: flex;
     flex-direction: column;
 }
 
-.input-container-2 {
+.button-container {
     display: flex;
     flex-direction: column;
+    gap: 16px;
+}
+
+.button-container button {
+    justify-self: start;
 }
