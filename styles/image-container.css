@@ -25,7 +25,9 @@
     top: 25%;
 }
 
-.image-text-container img {
-    width: 50%;
-    height: 100%;
+.logo {
+    width: 25%;
+    height: 90%;
+    border-radius: 50%;
+    opacity: 50%;
 }
