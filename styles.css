@@ -8,18 +8,22 @@ body {
     margin: 0;
     height: 100vh;
     background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #image-container {
     color: white;
-    background: url(casey-horner-RmoWqDCqN2E-unsplash.jpg);
-    width: 25vw;
+    background-image: url(casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    width: 30vw;
 }
 
-.image-text {
+.image-text-container {
     font-family: dogica, Courier, monospace;
     background: rgba(38, 32, 124, 0.25);
     height: 25vh;
+    font-size: 1vw;
+    position: relative;
+    top: 25%;
 }
 
 #form-container {
@@ -41,6 +45,7 @@ body {
 .input-container-2 {
     display: flex;
     flex-direction: column;
+    gap: 4px
 }
 
 .button-container {
