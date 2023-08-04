@@ -3,6 +3,8 @@
     src: url(dogica.otf);
 }
 
+@import url(root.css);
+
 #image-container {
     color: white;
     background-image: url(/home/lawrenz/repos/sign-up-form/casey-horner-RmoWqDCqN2E-unsplash.jpg);
