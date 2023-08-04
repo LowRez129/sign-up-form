@@ -7,8 +7,9 @@
 
 #image-container {
     color: white;
-    background-image: url(/home/lawrenz/repos/sign-up-form/casey-horner-RmoWqDCqN2E-unsplash.jpg);
-    width: 30vw;
+    background-image: url(/home/lawrenz/repos/sign-up-form/stephen-leonardi-sMPRCsoUM4A-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 50%;
 }
 
 .image-text-container {
@@ -27,5 +28,4 @@
 .image-text-container img {
     width: 50%;
     height: 100%;
-    opacity: 50%;
 }

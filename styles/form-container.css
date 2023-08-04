@@ -5,7 +5,9 @@
     justify-content: center;
     gap: 16px;
     padding: 16px;
-    background-color: yellow;
+    background-image: url(/home/lawrenz/repos/sign-up-form/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    background-size: 100% 100%;
+    color: white;
 }
 
 body {
