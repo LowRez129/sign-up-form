@@ -35,8 +35,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-items: start;
 }
 
 .button-container button {
-    justify-self: start;
+    width: 25%;
+    height: 40px;
 }
