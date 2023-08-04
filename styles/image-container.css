@@ -1,6 +1,6 @@
 @font-face {
     font-family: dogica;
-    src: url(dogica.otf);
+    src: url(/home/lawrenz/repos/sign-up-form/dogica.otf);
 }
 
 @import url(root.css);
@@ -14,13 +14,15 @@
 
 .image-text-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 16px;
+
     font-family: dogica, Courier, monospace;
+    font-size: 200%;
+
     background: rgba(38, 32, 124, 0.25);
     height: 25vh;
-    font-size: 1vw;
     position: relative;
     top: 25%;
 }
@@ -29,5 +31,5 @@
     width: 25%;
     height: 90%;
     border-radius: 50%;
-    opacity: 50%;
+    opacity: 60% ;
 }
