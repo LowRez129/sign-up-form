@@ -1,3 +1,8 @@
+@font-face {
+    font-family: dogica;
+    src: url(dogica.otf);
+}
+
 body {
     display: flex;
     margin: 0;
@@ -6,10 +11,15 @@ body {
 }
 
 #image-container {
-   font-family: 'url(dogica.otf)', Courier, monospace;
-   color: white;
-   background: url(casey-horner-RmoWqDCqN2E-unsplash.jpg);
-   width: 25vw;
+    color: white;
+    background: url(casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    width: 25vw;
+}
+
+.image-text {
+    font-family: dogica, Courier, monospace;
+    background: rgba(38, 32, 124, 0.25);
+    height: 25vh;
 }
 
 #form-container {
