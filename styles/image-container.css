@@ -1,0 +1,27 @@
+@font-face {
+    font-family: dogica;
+    src: url(dogica.otf);
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#image-container {
+    color: white;
+    background-image: url(/home/lawrenz/repos/sign-up-form/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    width: 30vw;
+}
+
+.image-text-container {
+    font-family: dogica, Courier, monospace;
+    background: rgba(38, 32, 124, 0.25);
+    height: 25vh;
+    font-size: 1vw;
+    position: relative;
+    top: 25%;
+}
