@@ -41,3 +41,7 @@ body {
     width: 25%;
     height: 40px;
 }
+
+.button-container a {
+    color: white;
+}
