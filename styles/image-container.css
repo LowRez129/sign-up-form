@@ -3,14 +3,6 @@
     src: url(dogica.otf);
 }
 
-body {
-    display: flex;
-    margin: 0;
-    height: 100vh;
-    background-color: aqua;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 #image-container {
     color: white;
     background-image: url(/home/lawrenz/repos/sign-up-form/casey-horner-RmoWqDCqN2E-unsplash.jpg);
