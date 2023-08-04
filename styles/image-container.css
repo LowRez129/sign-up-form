@@ -12,10 +12,20 @@
 }
 
 .image-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     font-family: dogica, Courier, monospace;
     background: rgba(38, 32, 124, 0.25);
     height: 25vh;
     font-size: 1vw;
     position: relative;
     top: 25%;
+}
+
+.image-text-container img {
+    width: 50%;
+    height: 100%;
+    opacity: 50%;
 }
