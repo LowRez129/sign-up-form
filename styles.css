@@ -6,7 +6,10 @@ body {
 }
 
 #image-container {
-   
+   font-family: 'url(dogica.otf)', Courier, monospace;
+   color: white;
+   background: url(casey-horner-RmoWqDCqN2E-unsplash.jpg);
+   width: 25vw;
 }
 
 #form-container {
