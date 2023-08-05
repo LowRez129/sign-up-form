@@ -22,27 +22,27 @@
             <br> 
             Start a new life with a new identity? Explore the universe? Then sign up now in OnlyAliens.
         </p>
-        <form class="form" action="" method="post">
+        <form class="form" action="https://httpbin.org/post" method="post">
             <div class="input-container">
                 <div class="input-container-1">
-                    <label>First Name</label>
-                    <input>
-                    <label>Email</label>
-                    <input>
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" name="first-name" type="text">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email">
                     <label for="password">Password</label>
                     <input id="password" name="password" type="password" >
                 </div>
                 <div class="input-container-2">
-                    <label>Last Name</label>
-                    <input>
-                    <label>Phone Number</label>
-                    <input>
-                    <label>Confirm Password</label>
-                    <input>
+                    <label for="last-name">Last Name</label>
+                    <input id="last-name" name="last-name" type="text">
+                    <label for="phone-number">Phone Number</label>
+                    <input id="phone-number" name="phone-number" type="number">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input id="confirm-password" name="confirm-password" type="password">
                 </div>
             </div>
             <div class="button-container">
-                <button>Create Account</button>
+                <button id="submit-button" type="submit">Create Account</button>
                 <div>
                     Already have an account? <a href="index.html">Log in</a>
                 </div>
