@@ -1,1 +1,2 @@
-const input_password = document.querySelector(".input-password");
+const password = document.querySelector("#password");
+
