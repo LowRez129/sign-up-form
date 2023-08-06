@@ -27,6 +27,9 @@ body {
 .input-container {
     display: flex;
     gap: 32px;
+    border-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .input-container-1,
