@@ -4,7 +4,9 @@ const first_name = document.querySelector("#first-name");
 const email = document.querySelector("#email");
 const submit_button = document.querySelector("#submit-button");
 
-submit_button.addEventListener("click", () => {
+
+
+confirm_password.addEventListener("input", () => {
     console.log(password.value, confirm_password.value);
 
     switch (password.value) {
