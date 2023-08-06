@@ -22,30 +22,35 @@
             <br> 
             Start a new life with a new identity? Explore the universe? Then sign up now in OnlyAliens.
         </p>
-        <form class="form" action="" method="post">
+        <form class="form" action="#" method="post">
             <fieldset class="input-container">
                 <legend>Sign Up Form:</legend>
                 
                 <div class="input-container-1">
                     <label for="first-name">First Name</label>
                     <input id="first-name" name="first-name" type="text">
+
                     <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
+                    <input id="email" name="email" type="email" required>
+
                     <label for="password">Password</label>
-                    <input id="password" name="password" type="password" >
+                    <input id="password" name="password" type="password" required>
                 </div>
 
                 <div class="input-container-2">
                     <label for="last-name">Last Name</label>
                     <input id="last-name" name="last-name" type="text">
+
                     <label for="phone-number">Phone Number</label>
                     <input id="phone-number" name="phone-number" type="tel">
+
                     <label for="confirm-password">Confirm Password</label>
-                    <input id="confirm-password" name="confirm-password" type="password">
+                    <input id="confirm-password" name="confirm-password" type="password"required>
                 </div>
             </fieldset>
+
             <div class="button-container">
-                <button id="submit-button">Create Account</button>
+                <button type="button" id="submit-button">Create Account</button>
                 <div>
                     Already have an account? <a href="index.html">Log in</a>
                 </div>
