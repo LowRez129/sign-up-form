@@ -9,12 +9,12 @@ const submit_button = document.querySelector("#submit-button");
 confirm_password.addEventListener("input", () => {
     console.log(password.value, confirm_password.value);
 
-    switch (password.value) {
+    switch (confirm_password.value) {
         case "":
             console.log("Empty");
             break;
         
-        case confirm_password.value:
+        case password.value:
             console.log("Ok");
             break;
         
